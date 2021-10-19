@@ -1,10 +1,27 @@
+name:             'Taverna Kuznica'
+title:            'Taverna Kuznica'
+tagline:          'Taverna Pivnaya Kuznica'
+description:      'Taverna Pivnaya Kuznica'
+url: https://vasiliybologov.github.io/pivnayakuznica/
+#markdown: redcarpet
+markdown: kramdown
+
 lsi: false
 safe: true
 source: /
 incremental: false
 highlighter: rouge
+
+baseurl:          /
+
 gist:
-  noscript: false
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+pagination:
+  enabled: true
+  per_page: 5
