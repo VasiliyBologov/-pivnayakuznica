@@ -16,7 +16,7 @@ baseurl:          /
 gist:
   - jekyll-sitemap
   - jekyll-paginate-v2
-  
+
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
@@ -24,5 +24,3 @@ kramdown:
 pagination:
   enabled: true
   per_page: 5
-
-theme: jekyll-theme-dinky
